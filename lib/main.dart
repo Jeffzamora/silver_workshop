@@ -4,6 +4,7 @@ void main() {
   runApp(const HorizonsApp());
 }
 
+///iniciar la clase horizon
 class HorizonsApp extends StatelessWidget {
   const HorizonsApp({Key? key}) : super(key: key);
 
@@ -13,7 +14,7 @@ class HorizonsApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // This is the theme of your application.
-      theme: ThemeData.dark(),
+      theme: ThemeData.dark(), //aqui manda a llamar el fonde de la app
       // Scrolling in Flutter behaves differently depending on the
       // ScrollBehavior. By default, ScrollBehavior changes depending
       // on the current platform. For the purposes of this scrolling

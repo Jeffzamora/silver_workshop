@@ -21,7 +21,7 @@ class HorizonsApp extends StatelessWidget {
       // experience is the same for everyone - regardless of the
       // platform they are using.
       scrollBehavior: const ConstantScrollBehavior(),
-      title: 'Horizons Weather',
+      title: 'Temperatura',
       home: Scaffold(
         body: CustomScrollView(
           slivers: <Widget>[
